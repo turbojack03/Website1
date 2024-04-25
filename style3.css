@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container1{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./Images4website/567488.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    overflow: hidden;
+    position: relative;
+    border: 100px;
+
+}
+
+
+
+
+
+
+.content {
+    text-align: center;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.flipped-cat {
+    transform: scaleX(-1);
+}
+
+.cat-size1 {
+    font-size: 30px;
+}
+
+.shadowed-text {
+    text-shadow: -2px 2px 4px #3EB489;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+}   
+.shadowed-text2 {
+    text-shadow: -2px 2px 4px #fff;
+    font-size: 20px;
+    text-align: center; 
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.button1{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #3EB489;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button1 i{
+    width: 20px;
+    margin-right: 10px;
+}
+.button1:hover {
+  background-color: #0056b3;
+}
+
+
+.content{
+    height: 80%;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.button2 {
+    width: 150px;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 0;
+    background: #3EB489;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10;
+}
+
+
+.about {
+    padding: 50px;
+    background: #3EB489;
+    color: white;
+    position: relative;
+    z-index: 100;
+}
+
+.clearer {
+    padding: 50px;
+
+    color: white;
+    position: relative;
+    z-index: 100;
+    
+}
+
+.about h1 {
+    font-size: 40px;
+}
+
+
+.emoji {
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+@font-face {
+    font-family: 'CustomFontCat';
+    src: url('./Images4website/DkSmilingCat-9802.otf') format('otf');
+
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+.library-nav {
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 20px;
+    
+}
+
+.library-nav__container {
+    background: #3EB489;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 10px;
+    border-radius: 30px; 
+}
+
+.library-nav li {
+    width: fit-content;
+    flex-shrink: 0;
+}
+
+.library-nav__slider {
+    width: 100%;
+
+}
+
+.library-nav__slider>ul {
+    display: flex;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    align-items: center;
+}
+
+.library-nav button {
+    min-width: 17px;
+}
+
+.library-nav__button {
+    position: absolute;
+    visibility: hidden;
+}
+
+.library-nav__slider a {
+    font-size: .9rem;
+    padding-inline: 1rem;
+    padding-block: .6rem;
+    display: flex;
+}
+
+.library-nav__slider a:hover {
+    background-color: #007bff;
+}
+
+.library-nav__slider a.active {
+    background-color: var(--clr-accent-800);
+}
+
+
+@media (min-width: 700px) {
+    .library-nav__slider>ul li {
+        padding: 0;
+    }
+
+    .library-nav__slider a {
+        padding-inline: 1.5rem;
+    }
+
+    .library-nav__container {
+        width: var(--container);
+        margin-inline: auto;
+        padding-inline: 1.5rem;
+    }
+
+    .library-nav__button {
+        visibility: visible;
+    }
+}
+
+.library-nav__prev-button {
+    left: .25rem;
+}
+
+.library-nav__next-button {
+    right: -.25rem;
+}
+
+.library-nav button svg {
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  text-align: left; /* Aligns content in the center */
+    z-index: 100;
+}
+
+.left-div, .right-div {
+  display: inline-block;
+  width: 100%; /* Adjust according to your needs */
+  vertical-align: top; /* Aligns the divs to the top */
+}
+
+.left-div {
+    padding: 50px;
+    background: #3EB489;
+    color: white;
+    position: relative;
+    z-index: 100;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 10px;
+    text-align: left;
+     width: 400px;
+      border-radius: 30px; 
+}
+
+.right-div {
+    padding: 50px;
+    background: #3EB489;
+    color: white;
+    position: relative;
+    z-index: 100;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 10px;
+    text-align: left;
+    width: 700px;
+    border-radius: 30px; 
+}
+
+.Contact-info {
+    padding: 50px;
+    background: #3EB489;
+    color: white;
+    position: relative;
+    z-index: 100;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 10px;
+    text-align: left;
+    width: max-content;
+    border-radius: 30px; 
+}
+.extrastuff {
+    padding: 50px;
+    background: #3EB489;
+    color: white;
+    position: relative;
+    z-index: 100;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 10px;
+    text-align: left;
+    width: max-content;
+    border-radius: 30px; 
+}
+
+.About-me {
+    padding: 50px;
+    background: #3EB489;
+    color: white;
+    position: relative;
+    z-index: 100;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 10px;
+    text-align: left;
+    width: max-content;
+    border-radius: 30px; 
+}
+
+
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 100;
+  } */
+
+  form {
+    background-color: #3EB489; /* YES I KNOW THERE IS A FORM HERE BUT NOT ON THE PAGE, There is no need for me to go in and weed all the useless stuff out */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-color: #000000;
+    border-width: 10px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="color"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+
+
+
+
+
+
+ 
