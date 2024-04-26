@@ -5,8 +5,10 @@ const quotes = [
     "Life is what happens when you're busy making other plans. - John Lennon",
     "You miss 100% of the shots you don't take. - Wayne Gretzky",
     "Believe you can and you're halfway there. - Theodore Roosevelt",
-    "Sometimes you can’t see yourself clearly until you see yourself through the eyes of others. — Ellen DeGeneres",
-    "It's not whether you get knocked down, it's whether you get up. - Vince Lombardi"
+    "Sometimes you can't see yourself clearly until you see yourself through the eyes of others. - Ellen DeGeneres",
+    "It's not whether you get knocked down, it's whether you get up. - Vince Lombardi",
+    "Hi its me the website developer. - Jack",
+    "Please give me a good grade <3. - Jack",
 ];
 
 // Function to generate a random quote
