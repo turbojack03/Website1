@@ -221,10 +221,6 @@ nav ul li a{
     display: inline-block;
 }
 
-.library-nav__slider a:hover {
-    background-color: hsl(202, 85%, 15%);
-    background-color: var(--clr-accent-800);
-}
 
 .library-nav__slider a.active {
     background-color: var(--clr-accent-800);
@@ -282,17 +278,16 @@ nav ul li a{
 }
 
 .About-me {
-    padding: 50px;
-    background: #3EB489;
-    color: white;
-    position: relative;
-    z-index: 100;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 10px;
-    text-align: center;
-    border-radius: 30px; \
     max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #3EB489;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-color: #000000;
+    border-style: solid;
+    border-width: 10px;
 }
 .about-me2 {
     max-width: 600px;

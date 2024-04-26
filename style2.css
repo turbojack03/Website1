@@ -226,10 +226,7 @@ nav ul li a{
     display: inline-block;
 }
 
-.library-nav__slider a:hover {
-    background-color: hsl(202, 85%, 15%);
-    background-color: var(--clr-accent-800);
-}
+
 
 .library-nav__slider a.active {
     background-color: var(--clr-accent-800);
